@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/utkarshaanduh/Backend_Project/issues"
   },
-  "homepage": "https://github.com/utkarshaanduh/Backend_Project#readme"
+  "homepage": "https://github.com/utkarshaanduh/Backend_Project#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
